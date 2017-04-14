@@ -7,6 +7,8 @@
             tabs: '^tabs'
         },
         bindings: {
+            title: '@',
+            content: '@',
         },
         templateUrl: 'app/components/tabs-pane/tabs-pane.html',
         controller: TabsPaneController,
