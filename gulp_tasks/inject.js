@@ -10,7 +10,6 @@ gulp.task('inject', inject);
 
 function inject() {
   const injectScripts = gulp.src([
-    conf.path.tmp('app/todos/todos.js'),
     conf.path.tmp('index.js'),
     conf.path.tmp('app/constants/*.js'),
     conf.path.tmp('app/containers/*.js'),

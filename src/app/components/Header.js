@@ -4,19 +4,12 @@ angular
     templateUrl: 'app/components/Header.html',
     controller: Header,
     bindings: {
-      todos: '='
     }
   });
 
 /** @ngInject */
-function Header(todoService) {
-  this.todoService = todoService;
+function Header() {
 }
 
 Header.prototype = {
-  handleSave: function (text) {
-    if (text.length !== 0) {
-      this.todos = this.todoService.addTodo(text, this.todos);
-    }
-  }
 };

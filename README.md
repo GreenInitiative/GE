@@ -8,6 +8,8 @@ C:\GreenEngageUI>npm run serve
 > @ serve C:\GreenEngageUI
 > gulp serve
 
+Make sure you delete .tmp folder after each change!
+Sometimes changes are not reflecting because of this.
 
 #Reference on yeoman and pushing a new app from local to git remote repository
 

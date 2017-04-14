@@ -6,6 +6,4 @@ angular
   });
 
 function App() {
-  this.todos = [initialTodo];
-  this.filter = SHOW_ALL;
 }

@@ -1,0 +1,11 @@
+<ul class="tabs__selector inline">
+    <li ng-repeat="pane in tc.panes" ng-class="{ 'is-selected': pane.selected }" ng-click="tc.select( pane )">
+        <span class="row-fluid">
+            <i class="fa {{pane.icon}} title-spacer" aria-hidden="true"></i><span>{{ pane.title }}</span>
+        <!--To be added later <hint-popover class="inline" title="{{pane.title}}" content="{{pane.content}}"></hint-popover>-->
+        </span>
+    </li>
+    <hr class="hr-style">
+</ul>
+<ng-transclude>
+</ng-transclude>
